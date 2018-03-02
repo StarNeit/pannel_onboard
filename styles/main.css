@@ -249,6 +249,427 @@ body{
     color: #414042;	font-family: "UniNeueBook";	font-size: 48px;	font-weight: 300;	line-height: 48px;	text-align: center;
 }
 
+
+/**
+    Pannel Onboard
+ */
+.pannel__header{
+    width: 100%;
+    min-height: 675px;
+    background: #6170FF;
+}
+
+.pannel__header__content{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 126px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pannel__header__lgtitle{
+    font-family: 'UniNeueBlack';
+    color: #fff;
+    font-size: 48px;
+    text-align: left;
+    line-height: 48px;
+    max-width: 416px;
+
+    margin-top: 101px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pannel__header__img{
+    margin-top: 23px;
+    max-width: 480px;
+    width: 100%;
+}
+
+.pannel__header__smtitle{
+    font-family: 'ProximaNovaRegular';
+    color: #B8DEFF;
+    font-size: 20px;
+    text-align: left;
+    line-height: 26px;
+    max-width: 416px;
+
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pannel__header__btn_start__box{
+    max-width: 416px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px){
+    .pannel__header__btn_start__box {
+        text-align: center;
+    }
+}
+
+.pannel__header__btn_start{
+    background: #38D299;
+    min-height: 48px;
+    min-width: 192px;
+    border-radius: 30px;
+
+    font-family: 'ProximaNovaBold';
+    font-size: 11px;
+    color: #fff;
+    line-height: 24px;
+    letter-spacing: 2px;
+
+    border: 0;
+    outline: none;
+    padding-top: 4px;
+
+    margin-top: 45px;
+}
+
+.pannel__header__btn_start:hover{
+    background-color: #005239;
+}
+
+
+.pannel_influe{
+    background: #f5f5f5;
+}
+
+.pannel_influe__content{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 83.58px 20px 160px;
+}
+
+.pannel_influe__lgtitle{
+    font-family: 'ProximaNovaBold';
+    color: #4A4A4A;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.11px;
+    line-height: 30px;
+
+    margin-bottom: 52.03px;
+}
+
+.pannel_influe__circle{
+    border-radius: 100%;
+    background: #6170FF;
+    color: #fff;
+    font-family: 'ProximaNovaBold';
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    line-height: 21.6px;
+    text-align: center;
+    width: 32.75px;
+    height: 32.75px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.pannel_influe__mdtitle{
+    font-family: 'ProximaNovaBold';
+    color: #6170FF;
+    font-size: 22px;
+    text-align: center;
+    line-height: 32px;
+    margin-top: 14.55px;
+}
+
+.pannel_influe__smtitle{
+    font-family: 'ProximaNovaRegular';
+    color: #9B9B9B;
+    font-size: 17px;
+    letter-spacing: 0.09px;
+    line-height: 24px;
+    text-align: center;
+
+    padding-top: 17px;
+
+    max-width: 295px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.pannel_howwork{
+    background: #fff;
+}
+
+.pannel_howwork__content{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 83.58px 20px 160px;
+}
+
+.pannel_howwork__lgtitle{
+    font-family: 'ProximaNovaLight';
+    color: #6170FF;
+    font-size: 28px;
+    text-align: center;
+    line-height: 32px;
+
+    margin-bottom: 43px;
+}
+
+.pannel_howwork__earning{
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .pannel_howwork__earning{
+        text-align: center;
+    }
+}
+
+.pannel_howwork__img{
+    margin-top: 40px;
+    max-width: 286px;
+    width: 100%;
+}
+
+.pannel_howwork__item{
+    border-top: 1px solid #C5CAF9;
+    max-width: 340px;
+    width: 100%;
+
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pannel_howwork__item__smtitle{
+    font-family: 'ProximaNovaRegular';
+    color: #4A4A4A;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0.13px;
+    line-height: 24px;
+}
+
+.pannel_howwork__item__lgtitle{
+    font-family: 'ProximaNovaRegular';
+    color: #6170FF;
+    font-size: 36px;
+    text-align: left;
+    letter-spacing: 0.13px;
+    line-height: 24px;
+    padding-top: 10px;
+}
+
+.pannel_howwork__item__lgtitle > span{
+    font-size: 24px;
+}
+
+.pannel_company{
+    background: #f2f2f2;
+}
+
+.pannel_company__content{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 83.58px 20px 90px;
+}
+
+.pannel_company__maintitle{
+    font-family: 'ProximaNovaBold';
+    color: #9B9B9B;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.13px;
+    line-height: 22px;
+    margin-bottom: 74.02px;
+}
+
+.pannel_company__icons{
+    text-align: center;
+}
+
+.pannel_company__icons img{
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+
+.pannel_faqs{
+    background: #fff;
+}
+
+.pannel_faqs__content{
+    max-width: 910px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 83.58px 20px 160px;
+}
+
+.pannel_faqs__maintitle{
+    font-family: 'ProximaNovaLight';
+    color: #6170FF;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+
+    margin-bottom: 60px;
+}
+
+.pannel_faqs__item{
+    border-top: 1px solid #C5CAF9;
+    margin-top: 30px;
+}
+
+@media (max-width: 992px){
+    .pannel_faqs__item {
+        max-width: 450px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.pannel_faqs__item__lgtitle{
+    font-family: 'ProximaNovaBold';
+    color: #4A4A4A;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0.13px;
+    line-height: 24px;
+    padding-top: 12px;
+}
+
+.pannel_faqs__item__mdtitle{
+    font-family: 'ProximaNovaRegular';
+    color: #4A4A4A;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0.13px;
+    line-height: 24px;
+    padding-top: 15px;
+}
+
+.pannel_faqs__item__mdtitle > a{
+    color: #6170FF;
+}
+
+
+.pannel_signup{
+    background: #3A4399;
+}
+
+.pannel_signup__content {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 83.58px 20px 80px;
+}
+
+.pannel_signup__maintitle{
+    font-family:'ProximaNovaLight';
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.pannel_signup__notes{
+    font-family: 'ProximaNovaRegular';
+    color: #C5CAF9;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.11px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+
+.pannel_subscribe{
+    background: #fff;
+}
+
+.pannel_subscribe__content{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 83.58px 20px 80px;
+}
+
+.pannel_subscribe__maintitle{
+    font-family: 'ProximaNovaLight';
+    color: #6170FF;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+
+    max-width: 713.02px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pannel_subscribe__email{
+    height: 70px;
+    max-width: 542px;
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    background-color: #F5F5F5;
+    padding: 8px 10px 7px 20px;
+
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+.pannel_subscribe__email__btn{
+    width: 80px;
+    height: 50px;
+    background: #6170FF;
+    color: #fff;
+    font-family: 'ProximaNovaBold';
+    font-size: 11px;
+    letter-spacing: 2.09px;
+}
+
+.pannel_subscribe__email__input{
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    font-family:'ProximaNovaRegular';
+    font-size: 16px;
+    outline: none;
+}
+
+
 @media (max-width: 1300px) {
 
 }
